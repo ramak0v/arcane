@@ -1,0 +1,534 @@
+header {
+height: 80px;
+background: #0f0f0f;
+position: fixed;
+display: flex;
+box-shadow: 0 2px 8px;
+top:0;
+left:0;
+width: 100%;
+z-index: 1000;
+}
+body {
+margin:0px;
+height: 3000px;
+background-color: rgb(10, 10, 10);
+}
+.logo-riot {
+height: 25px;
+width: 90px;
+margin-top:30px;
+margin-bottom: 30px;
+margin-left: 30px;
+}
+.logo-A {
+height: 35px;
+width: 35px;
+margin-bottom: 30px;
+margin-top: 23px;
+margin-left:28px;
+margin-right: 15px;
+}
+@font-face {
+src:url(Spectral.ttf);
+font-family: Spectral;
+}
+@font-face {
+src:url(Stetica.ttf);
+font-family: Stetica;
+}
+@font-face {
+src:url(Uncage.ttf);
+font-family: Uncage;
+}
+@font-face {
+src:url(Sans.ttf);
+font-family: Sans;
+}
+.font-A {
+font-family:Spectral;
+color:white;
+height:10px;
+margin-left: 35px;
+margin-top:31px;
+margin-bottom: 25px;
+font-size:13px;
+transition: color 1s, scale 1s;
+}
+.font-A:hover {
+color:#757574;
+scale:102%;
+}
+.font-A2 {
+font-family:Spectral;
+color:white;
+height:10px;
+margin-left: 35px;
+margin-top:31px;
+margin-bottom: 25px;
+font-size:13px;
+transition: color 1s, scale 1s;
+width:200px;
+}
+.font-A2:hover {
+color:#757574;
+scale:102%;
+
+
+}
+.sign {
+font-family:Spectral;
+color:white;
+font-size:13px;
+right: 0;
+background: #212121;
+border-radius: 9px;
+height: 26px;
+width: 70px;
+margin-top:24px;
+margin-bottom: 20px;
+text-align:center;
+padding-top:8px;
+position: absolute;
+margin-right: 30px;
+}
+a {
+text-decoration: none;
+}
+.play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top:80px;
+}
+.main-logo {
+height: 28%;
+width: 25%;
+margin-top: 5vh;
+margin-left:7vw;
+display: flex;
+}
+.main-font {
+font-family:Sans;
+color:white;
+background: black;
+width: 25vw;
+margin-left: 7vw;
+text-align: center;
+font-size: 32px;
+}
+.watch {
+font-family:Sans;
+color:white;
+background: rgb(22,19,80);
+background: linear-gradient(180deg, rgba(22,19,80,1) 0%, rgba(41,46,166,1) 100%);
+text-align: center;
+right: 0;
+position: absolute;
+margin-top: 10vh;
+padding: 25px 40px;
+margin-right: 60px;
+font-size: 40px;
+transition: scale 1s;
+}
+.watch:hover {
+background: rgb(31,27,96);
+background: linear-gradient(180deg, rgba(31,27,96,1) 0%, rgba(69,73,158,1) 100%);
+scale: 105%;
+}
+video {
+height: 100%;
+width: 100%;
+margin-top:80px;
+}
+.d-f {
+display: flex;
+}
+.menu {
+width: 100%;
+height: 105vh;
+background-image: url(i.avif);
+display: flex;
+max-height: 105vh;
+}
+.menu-font {
+font-family: Sans;
+color:white;
+font-size:37px;
+justify-content: left;
+position: absolute;
+height: 50px;
+width: 500px;
+text-wrap: balance;
+}
+.menu-container {
+margin-left:auto;
+margin-right: auto;
+width: 94%;
+height: 80%;
+margin-top:50px;
+margin-bottom: auto;
+display: flex;
+}
+.menu-aside {
+  height: 90%;
+  width: 45%;
+  text-align: justify;
+}
+.menu-img {
+  width: 50%;
+  height: 70%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+.menu-img:hover {
+  scale: 105%;
+}
+.news {
+  width: 100%;
+  height: 105vh;
+  max-height: 105vh;
+}
+.news-font {
+font-family: Sans;
+color:white;
+font-size:50px;
+justify-content: left;
+position: absolute;
+height: 50px;
+width: 500px;
+margin-left:3%;
+}
+.news-content {
+  height: 240px;
+  width: 950px;
+  margin-top: 10%;
+  margin-left:2%;
+  max-width: 950px;
+  max-height: 240px;
+  transition: scale 500ms;
+}
+.news-content:hover {
+scale: 108%;
+}
+.news-f {
+font-family: stetica;
+color:white;
+font-size:15px;
+margin-top:62%;
+}
+.news-f2 {
+font-family: Arial;
+color:white;
+font-size:23px;
+max-width: 950px;
+}
+.news-f3 {
+font-family: Arial;
+color:#c2c2c2;
+font-size:18px;
+max-width: 950px;
+}
+b {
+color:#a4a7de;
+border-right: 1px solid #525252;
+margin-right: 5px;
+padding-right: 10px;
+}
+.news-border {
+  width: 94%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top:15%;
+  background: white;
+  height: 2px;
+  border-radius: 20px;
+}
+.main-img {
+  width:100%;
+  height: 100%;
+  margin-top:15%;
+  margin-left:13px;
+  transition: scale 500ms;
+  line-height: 150px;
+}
+.main-img:hover {
+  scale: 118%;
+}
+.scroll {
+  overflow-x: auto ;
+  display: flex;
+  line-height: 150px;
+  text-align: center;
+}
+.scroll::-webkit-scrollbar {
+ width: 0;
+}
+.spotify {
+  width: 100%;
+  height: 133%;
+  margin-top:80px;
+  text-align: right;
+}
+.spotify-img {
+  width: 45%;
+  height: 105%;
+  left: 0;
+  margin-left:80px;
+  margin-top:70px;
+  margin-right: 20px;
+}
+.container {
+  display: flex;
+}
+.sp-font {
+font-family: Sans;
+color:white;
+font-size:50px;
+height: 10px;
+width:100%;
+}
+.sp-font2 {
+font-family: Sans;
+color:white;
+font-size:120px;
+height: 600px;
+width:100%;
+}
+.sp-font3 {
+font-family: Sans;
+color:white;
+font-size:27px;
+height: 10px;
+width:100%;
+display: flex;
+}
+.sp-font4 {
+font-family: Sans;
+color:white;
+font-size:27px;
+height: 10px;
+margin-left:50px;
+}
+.block {
+  text-align: left;
+  display: block;
+}
+.sp-content {
+  width: 30px;
+  height: 30px;
+  margin-top:19px;
+  margin-left:40px;
+  transition: scale 300ms;
+}
+.sp-content:hover {
+ scale: 110%;
+}
+.Gallery {
+  height: 900px;
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+  margin-top:50px;
+  padding-top:5px;
+}
+.Gallery-img {
+ display:flex;
+ align-items: center;
+ justify-content: center ;
+ min-height:  100vh;
+}
+.g-font {
+font-family: Sans;
+color:white;
+font-size:60px;
+height: 10px;
+margin-left:30px;
+width: 300px;
+text-align: left;
+}
+.g2-font {
+font-family: Sans;
+color:white;
+font-size:30px;
+height: 10px;
+margin-left:30px;
+width: 500px;
+text-align: left;
+margin-top:60px;
+}
+.img {
+max-width: 100%;
+object-fit: cover ;
+min-height:80%;
+}
+.container2 {
+  max-width: 85%;
+  margin: 0 auto;
+}
+.container2 .card_container {
+ position:  relative  ;
+}
+.container2 .card_container button {
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  background: #fff;
+  box-shadow: 0 1rem 2rem rgb(0,0,0,.8);
+  top: 50%;
+  position: absolute;
+  transform: translateY( -50%0);
+  border-radius:  50%;
+  display: flex;
+  justify-content:  center;
+  z-index:  1;
+  align-items:  center;
+  cursor: pointer ;
+}
+.container2 .card_container button.prev {
+  left: -2rem;
+}
+.container2 .card_container button.next {
+  right: -2rem;
+}
+.container2 .card_container .cards {
+  white-space:  nowrap;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.container2 .card_container .cards::-webkit-scrollbar-track {
+  background: black;
+}
+.container2 .card_container .cards .card {
+  position: relative;
+  display:  inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: 80%;
+}
+.container2 .card_container .cards .card .img {
+  width: 100%;
+  height: 80%;
+}
+.ad {
+width: 100%;
+height: 100%;
+position: absolute;
+background-image: url(ds.webp);
+}
+.ad-font {
+font-family: Sans;
+color:white;
+font-size:45px;
+width:630px;
+position: absolute  ;
+}
+.ad-font2 {
+font-family: Sans;
+color:white;
+font-size:110px;
+width:500px;
+text-align: left;
+margin-left:50px;
+position:absolute ;
+
+}
+.ar {
+font-family: Arial;
+color:white;
+font-size:18px;
+height: 30px;
+width:630px;
+text-align: left ;
+position:absolute ;
+margin-left:50px;
+top: 440px;
+}
+.detail {
+font-family:Sans;
+color:white;
+background: rgb(22,19,80);
+background: linear-gradient(180deg, rgba(22,19,80,1) 0%, rgba(41,46,166,1) 100%);
+text-align: center;
+position: absolute;
+padding: 15px 40px;
+font-size: 40px;
+transition: scale 1s;
+left: 0;
+margin-left:60px;
+top: 500px;
+}
+.detail:hover {
+background: rgb(31,27,96);
+background: linear-gradient(180deg, rgba(31,27,96,1) 0%, rgba(69,73,158,1) 100%);
+scale: 105%;
+}
+.detail-img {
+width: 42%;
+height: 50%;
+position: absolute  ;
+right: 100px;
+top:120px;
+}
+footer {
+background: #0f0f0f;
+height: 400px;
+margin-top:47%;
+}
+.f-s {
+height: 4px;
+width: 100%;
+background: #1c1c1c;
+position: absolute;
+}
+.fs-content {
+  width: 25px;
+  height: 25px;
+  margin-top: 30px;
+  transition: scale 300ms;
+  margin-left: 9px;
+  margin-right: 9px;
+  background: #242323;
+  border-radius: 7px;
+  padding: 4px 4px
+}
+.fs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-riot2 {
+height: 30px;
+width: 110px;
+margin-top:50px;
+}
+.f-font {
+font-family: Arial;
+color: white;
+font-size:15px;
+height: 10px;
+width: 500px;
+margin-top:30px;
+text-align: center;
+}
+.f2-font {
+font-family: Stetica;
+color: white;
+font-size:14px;
+padding:10px 10px;
+margin-top:80px;
+text-align: center;
+margin-left: 12px;
+margin-right: 12px;
+border-radius: 12px;
+transition: color 400ms;
+}
+.f2-font:hover {
+  color: #726dde;
+  background: #262626;
+}
+
+
